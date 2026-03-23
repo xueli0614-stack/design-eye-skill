@@ -11,7 +11,8 @@ NC='\033[0m'
 
 echo ""
 echo -e "${BLUE}🎨 Design Eye — 设计之眼 Kiro Skill 安装${NC}"
-echo "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
+echo -e "   Apple HIG + Liquid Glass / Material Design 3"
+echo "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
 echo ""
 
 # 选择安装范围
@@ -85,6 +86,8 @@ echo ""
 echo -e "${GREEN}✅ 安装完成！${NC}"
 echo ""
 echo "使用方式："
-echo "  • 图标搜索：自动生效，生成代码时会自动搜索真实 SVG 图标"
+echo "  • 图标搜索：在 Kiro 聊天中输入 #icons.md 后描述需求（或改为 always 自动生效）"
 echo "  • 设计审美：在 Kiro 聊天中输入 #design-eye.md 后描述需求"
+echo "  • 默认风格：Apple（Liquid Glass），说 'M3' 切换 Material Design 3"
+echo "  • 默认品牌：哈啰品牌，说 '无品牌' 切换纯风格系统"
 echo ""
